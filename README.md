@@ -46,7 +46,33 @@ Users should be able to:
 ### What I learned
 
 - use of CSS grid 
+- the quotation image can be placed in the purple container using two methods
+  - by placing the image in the div and using the position of image as absolute 
+  '''
+  <div class="quotation">
+      <img src=".\images\bg-pattern-quotation.svg" alt="bg-pattern-quotation">
+  </div>
 
+  .quotation img{
+    position: absolute;
+    top: 0;
+    right: 8rem;
+    max-height: 10.2rem;
+    max-width: 10.4rem;
+}
+'''
+
+  - by placing the image in the background
+  '''
+  .purple{
+    background: url(./images/bg-pattern-quotation.svg),var(--moderate-violet);
+    background-repeat: no-repeat;
+    background-position: 75% 0% ;
+    background-size: 11rem 13rem;
+    color: var(--white);
+  }
+
+  '''
 ### Continued development
 
 - i need to learn the CSS auto grid and minmax function use in css grid.
