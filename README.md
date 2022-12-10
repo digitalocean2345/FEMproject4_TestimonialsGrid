@@ -59,11 +59,12 @@ Users should be able to:
     right: 8rem;
     max-height: 10.2rem;
     max-width: 10.4rem;
-}
-```
+  }
+  ```
 
   - by placing the image in the background
-```
+  
+  ```
   .purple{
     background: url(./images/bg-pattern-quotation.svg),var(--moderate-violet);
     background-repeat: no-repeat;
@@ -71,8 +72,8 @@ Users should be able to:
     background-size: 11rem 13rem;
     color: var(--white);
   }
+  ```
 
-```
 ### Continued development
 
 - i need to learn the CSS auto grid and minmax function use in css grid.
