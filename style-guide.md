@@ -9,6 +9,18 @@ The designs were created to the following widths:
 
 ## Colors
 
+.quotation img{
+    position: absolute;
+    top: 0;
+    right: 8rem;
+    max-height: 10.2rem;
+    max-width: 10.4rem;
+}
+<div class="quotation">
+      <img src=".\images\bg-pattern-quotation.svg" alt="bg-pattern-quotation">
+    </div>
+    
+
 ### Primary
 
 Moderate violet: hsl(263, 55%, 52%)

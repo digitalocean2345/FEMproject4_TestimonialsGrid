@@ -127,7 +127,10 @@ li{
 
 /*Background colors*/
 .purple{
-    background-color: var(--moderate-violet);
+    background: url(./images/bg-pattern-quotation.svg),var(--moderate-violet);
+    background-repeat: no-repeat;
+    background-position: 75% 0% ;
+    background-size: 11rem 13rem;
     color: var(--white);
 }
 .dark-gray{
