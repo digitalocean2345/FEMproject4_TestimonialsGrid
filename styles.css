@@ -60,7 +60,16 @@ li{
     flex-direction: column;
     gap: 2rem;
 }
-
+.card{
+    position: relative;
+}
+.quotation img{
+    position: absolute;
+    top: 0;
+    right: 8rem;
+    max-height: 10.2rem;
+    max-width: 10.4rem;
+}
 @media (min-width:900px){
     .container{
         display: grid;
