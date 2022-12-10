@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
 
 :root{
     
     /*primary colours*/
     --moderate-violet: hsl(263, 55%, 52%);
-    --very-dark-grayish-blue: hhsl(217, 19%, 35%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
     --very-dark-blackish-blue: hsl(219, 29%, 14%);
     --white: hsl(0, 0%, 100%);
 
@@ -31,12 +31,12 @@ html{
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Barlow Semi Condensed ', sans-serif;
     background-color: white;
 }
 
 p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 img{
@@ -66,13 +66,46 @@ li{
 /*Background colors*/
 .purple{
     background-color: var(--moderate-violet);
+    color: var(--white);
 }
 .gray{
-    background-color: var(--light-gray);
+    background-color: var(--very-dark-grayish-blue);
 }
 .white{
     background-color: var(--white);
 }
 .black{
-    background-color: var(--very-dark-grayish-blue);
+    background-color: var(--very-dark-blackish-blue);
+}
+
+.profile{
+    display: flex;
+}
+.profile-img img{
+    height: 3.2rem;
+    border-radius: 100%;
+    
+}
+.name-desig{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.desig{
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: 0.5;
+}
+.testimonial-head h2{
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+.testimonial-content{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--light-gray);
 }
